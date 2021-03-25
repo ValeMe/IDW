@@ -30,50 +30,50 @@
     grid-row:1 / 3 ;
     height: 500px;
     background-size: cover;
-    background-image: url("ian-dooley-FoF0w-d6Z74-unsplash.jpg"); 
+    background-image: url("Imágenes/ian-dooley-FoF0w-d6Z74-unsplash.jpg"); 
 
 
 }
 .Imagen2{
     
     background-size: cover;
-    background-image: url("ian-dooley-7m0OJhmjqYg-unsplash.jpg");
+    background-image: url("Imágenes/ian-dooley-7m0OJhmjqYg-unsplash.jpg");
     
 }
 
 .Imagen3{
     background-size: cover;
-    background-image: url("ian-dooley-rBkihK3n_YI-unsplash.jpg");
+    background-image: url("Imágenes/ian-dooley-rBkihK3n_YI-unsplash.jpg");
 }
 
 .Imagen11{
     grid-column:1 / 3 ;
-    background-image: url("ian-dooley-G561123Tmk-unplash.png");
+    background-image: url("Imágenes/ian-dooley-G561123Tmk-unplash.png");
     background-size: cover;
 }
 
 .Imagen22{
     background-size: cover;
-    background-image: url("ian-dooley-J986543kUi-unplash.jpg");
+    background-image: url("Imágenes/ian-dooley-J986543kUi-unplash.jpg");
 
 }
 
 .Imagen33{
     grid-row: 1 / 3;
     grid-column:  4 / 5;
-    background-image: url("ian-dooley-cA567hK3n_YI-unsplash.png");
+    background-image: url("Imágenes/ian-dooley-cA567hK3n_YI-unsplash.png");
     background-size: cover;
 }
 
 .Imagen44{
     grid-column: 1 / 2;
-    background-image: url("ian-dooley-456Lil1T55-unsplash.png");
+    background-image: url("Imágenes/ian-dooley-456Lil1T55-unsplash.png");
     background-size: cover;
 }
 
 .Imagen55{
     grid-column: 2 / 4;
-    background-image: url("ian-dooley-ru1g3425_Hl-unsplash.png");
+    background-image: url("Imágenes/ian-dooley-ru1g3425_Hl-unsplash.png");
     background-size: cover;
 }
 
