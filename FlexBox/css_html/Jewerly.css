@@ -1,0 +1,254 @@
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ppalContainer
+{
+    display: flex;
+}
+
+.main
+{
+    background-color: black;
+    display: flex;
+}
+
+    .menu
+    {
+        padding: 10px;
+        background-color: white;
+        display: flex;
+        flex-flow: column nowrap;
+        flex: 0.5;
+        border-right: rgb(216, 214, 214) solid 1px;
+    }
+
+        a
+        {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        a:active
+        {
+            color: black;
+            text-decoration: crimson underline;
+        }
+
+        .navli
+        {
+            padding: 20px 20px 20px 35px;
+            background-color: white;
+            flex: 1 1 auto;
+            text-align: center;
+            font-size: 12px;
+            writing-mode: vertical-lr;
+            transform: rotate(-180deg);
+        }
+
+        .logo
+        {
+            background-color: white;
+            flex: 1 1 auto;
+            padding-left: 10px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .logoSize
+            {
+                width: 40px;
+                height: 40px;
+            }
+
+    .image
+    {
+        background-color: white; /* */
+        padding: 15px;
+        display: flex;
+        flex-flow: row nowrap;
+        flex: 5;
+    }
+
+        .imageContent
+        {
+            background-image: url(images/Main_Picture.png);
+            background-size: cover;
+            display: flex;
+            flex-flow: column nowrap;
+            flex: 6;
+            position: relative;
+        }
+
+            .ppalText
+            {
+                padding: 25px;
+                color: white;
+                font-size: 20px;
+                z-index: 1;
+            }
+
+            .colorBox
+            {   
+                background-color: rgba(214, 166, 192, 0.597);
+                position: absolute;
+                width: 65%;
+                padding: 20px;
+                padding-bottom: 5px;
+                top: 45px;
+                left:  40px;
+                z-index: 0;
+            }
+
+                .secondaryText
+                {
+                    padding-bottom: 0px;
+                    margin: 0px;
+                    display: flex;
+                    align-content: flex-end;
+                    justify-content: flex-end;
+                    font-size: 8px;
+                    text-align: right;
+                    color: white;
+                }
+
+            .imageContent > .bottomItems
+            {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                width: 100%;
+                padding: 10px;
+            }
+
+                .social
+                {
+                    flex-flow: row nowrap;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0px;
+                    padding-left: 10px;
+                }
+
+                .socialLogos
+                {
+                    width: 60%;
+                    height: auto;
+                }
+
+                .date
+                {
+                    padding: 1px;
+                    color: darkgray;
+                    display: flex;
+                    text-align: right;
+                    font-size: 7px;
+                    align-items: flex-end;
+                }
+
+        .typesColumn
+        {
+            background-color: white;
+            padding: 10px;
+            display: flex;
+            flex: 2;
+            flex-flow: column nowrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+            .types
+            {
+                display: flex;
+                flex-flow: column nowrap;
+                flex: 1 1 auto;
+                padding: 10px;
+                margin: 3px;
+            }
+
+                .typesTitle
+                {
+                    padding: 3px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+
+                    .title
+                    {
+                        padding: 0px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        flex: 5;
+                        font-size: 12px;
+                        font-weight: bold;
+                    }
+
+                    .arrow
+                    {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex: 1;
+                        padding: 5px;
+                    }
+
+                    .arrowSize
+                    {
+                        width: 50%;
+                    }
+
+                .typesText
+                {
+                    padding: 3px !important;
+                    padding-bottom: 0px;
+                    display: flex;
+                    flex-flow: column wrap;
+                    text-align: justify;
+                    font-size: 10px;
+                    width: 100%;
+                }
+
+                .typesSubtext
+                {
+                    padding: 3px;
+                    display: flex;
+                    justify-content: space-around;
+                    border-top: gray solid 1px;
+                }
+
+                    .lorem
+                    {
+                        padding: 3px;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-start;
+                        flex: 1;
+                        font-size: 8px;
+                        text-align: left;
+                        color: rgb(179, 179, 179);
+                    }
+
+                    .date2
+                    {
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: flex-end;
+                        flex: 1;
+                        padding: 3px;
+                        font-size: 8px;
+                        text-align: right;
+                        color: rgb(179, 179, 179);
+                    }
