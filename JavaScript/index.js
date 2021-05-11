@@ -14,7 +14,7 @@ const titleEl = Title('Welcome Javascript')
 const list = createElement('ul', {id: 'list'}, []);
 
 const inputSearch = Input('')
-// Añadir el evento cuando se da enter
+
 inputSearch.addEventListener('keyup', function(e){
     if (e.code == 'Enter'){
         GET(url, inputSearch.value, list)
@@ -22,12 +22,12 @@ inputSearch.addEventListener('keyup', function(e){
 })
 
 const btnSearch = Button('Search');
-// Añadir el evento cuando se da click
+
 btnSearch.addEventListener('click', function () {
     GET(url, inputSearch.value, list)
 })
 
-// add main children
+
 main.appendChild(titleEl)
 main.appendChild(list)
 main.appendChild(inputSearch)
